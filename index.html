@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="./assets/img/Untitled design.svg">
+<title>Solar Home — Your Home Energy Solution</title>
+<meta name="description" content="Your portal to clean home energy. Explore solar solutions for your home, from high-efficiency panels to smart energy management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  /* 
+    New Light Theme. 
+    For site-wide changes, move these variables to :root in assets/css/style.css 
+  */
+  :root {
+  --bg: #0a0a1a;          /* deep cosmic black */
+  --card: #1c1c3a;        /* dark indigo for cards */
+  --text: #e0e0ff;        /* soft bluish white for text */
+  --headings: #ffffff;    /* bright white for headings */
+  --accentA: #ff0055;     /* neon crimson accent */
+  --accentB: #00f5ff;     /* electric cyan accent */
+  --border-color: #2e2e5a; /* muted cosmic indigo border */
+}
+
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home">
+      <img src="assets/img/Untitled design.svg" alt="Solar Home icon"><span>Solar Home</span>
+    </a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" class="active">Home</a>
+      <a href="game.html" >Our Systems</a>
+      <a href="leaderboard.html" >Savings</a>
+      <a href="about.html" >About</a>
+      <a href="blog.html" >Blog</a>
+      <a href="faq.html" >FAQ</a>
+      <a href="privacy.html" >Privacy</a>
+      <a href="terms.html" >Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="right">
+      <a class="btn ghost" data-nav-toggle>Menu</a>
+      <a class="btn" href="game.html">Get Quote</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container grid">
+    <div>
+      <div class="badge">Go Green • Save Money • Power Your Home</div>
+      <h1>Your Gateway to Home Solar Energy.</h1>
+      <p>Discover a world of clean energy solutions with our high-efficiency solar panels. Take control of your power bills and reduce your carbon footprint.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn" href="game.html">Explore Systems</a>
+        <a class="btn ghost" href="blog.html">Learn More</a>
+      </div>
+      <div class="kudos">
+        <span class="pill">⚡ High-Efficiency Panels</span>
+        <span class="pill">💰 Big Savings</span>
+        <span class="pill">☀️ Clean Energy</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="grid-2">
+        <div class="card">
+          <div class="stat">
+            <div class="n">10k+</div>
+            <div class="t">Homes Powered</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="stat">
+            <div class="n">25+</div>
+            <div class="t">Years Warranty</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section container">
+  <h2>Why Homeowners Go Solar</h2>
+  <p>Experience energy independence. With cutting-edge solar technology, you're not just lowering your bills—you're investing in a sustainable future.</p>
+  <div class="fe-grid">
+    <div class="card fe"><h3>Lower Electric Bills</h3><p>Generate your own clean electricity and reduce your reliance on the grid.</p></div>
+    <div class="card fe"><h3>Increase Home Value</h3><p>Solar installations are a smart investment that can boost your property's market value.</p></div>
+    <div class="card fe"><h3>Protect the Environment</h3><p>Reduce your carbon footprint and contribute to a cleaner, healthier planet for future generations.</p></div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>Featured Installations</h2>
+  <div class="showcase">
+    <div class="tile"><img src="https://raw.githubusercontent.com/neo-aussie/img/main/vr-game-placeholder.jpg" alt="Rooftop solar panel installation" style="width:100%;height:100%;opacity:.6;object-fit:cover"><div class="cap">Rooftop Systems</div></div>
+    <div class="tile"><img src="https://raw.githubusercontent.com/neo-aussie/img/main/vr-leaderboard-placeholder.jpg" alt="Energy savings chart" style="width:100%;height:100%;opacity:.6;object-fit:cover"><div class="cap">Energy Savings</div></div>
+    <div class="tile"><img src="https://raw.githubusercontent.com/neo-aussie/img/main/vr-community-placeholder.jpg" alt="Happy family in front of a solar-powered home" style="width:100%;height:100%;opacity:.6;object-fit:cover"><div class="cap">Happy Customers</div></div>
+  </div>
+</section>
+
+<section id="contact" class="section container">
+  <div class="cta card">
+    <h2>Ready to Go Solar?</h2>
+    <p>Contact us for a free, no-obligation quote and find out how much you can save.</p>
+    <form id="contact-form" style="max-width:720px;margin:18px auto 0;text-align:left">
+      <div class="form-row">
+        <div><label for="contact-name">Name</label><input id="contact-name" name="name" required placeholder="Ada Lovelace" aria-label="Name"></div>
+        <div><label for="contact-email">Email</label><input id="contact-email" name="email" required type="email" placeholder="you@company.com" aria-label="Email"></div>
+      </div>
+      <div style="height:12px"></div>
+      <div><label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="4" placeholder="What do you want to change?" aria-label="Message"></textarea></div>
+      <div style="height:18px"></div> 
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <div>© 2025 Solar Home. All rights reserved.</div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <span class="badge">Responsive • Age-gate</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>\n<footer style="background:#0b1220;color:#e5e7eb;border-top:1px solid #1f2937">
